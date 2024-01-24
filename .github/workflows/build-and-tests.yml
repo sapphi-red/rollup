@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - master
+      - feat/strip
     tags:
       - 'v*.*.**'
   pull_request:
